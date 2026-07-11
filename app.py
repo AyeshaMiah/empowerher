@@ -1,4 +1,14 @@
 import streamlit as st
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #ADD8E6;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 from gemini import ask_gemini
 
 st.set_page_config(
