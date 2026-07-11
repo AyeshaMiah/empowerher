@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 Rasheeda AI")
+st.title("🤖 Ayesha AI")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
